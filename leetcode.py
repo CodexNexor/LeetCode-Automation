@@ -29,6 +29,7 @@ class LeetCodeAgent:
         self.setup_logging()
         self.setup_headers()
         
+    # setup_headers
     def setup_headers(self) -> None:
         """Setup headers for requests"""
         self.session.headers.update({
