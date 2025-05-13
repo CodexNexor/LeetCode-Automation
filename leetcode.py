@@ -137,6 +137,7 @@ class LeetCodeAgent:
             self.logger.error(f"Manual login process failed: {e}")
             return False
 
+    # ensure_python_language
     def ensure_python_language(self):
         """Ensure Python is selected as the programming language"""
         try:
