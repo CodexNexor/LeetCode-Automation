@@ -71,6 +71,7 @@ class LeetCodeAgent:
             self.logger.error(f"Failed to initialize driver: {e}")
             return False
 
+    # manual_login
     def manual_login(self):
         """Wait for user to manually login"""
         try:
