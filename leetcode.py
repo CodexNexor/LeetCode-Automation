@@ -166,6 +166,7 @@ class LeetCodeAgent:
             self.logger.error(f"Failed to ensure Python language: {e}")
             return False
 
+    # _select_python_language
     def _select_python_language(self):
         """Select Python as the programming language"""
         try:
