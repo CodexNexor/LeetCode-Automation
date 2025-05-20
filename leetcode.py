@@ -229,6 +229,7 @@ class LeetCodeAgent:
             self.logger.error(f"Failed to select Python language: {e}")
             return False
 
+    # extract_problem_statement
     def extract_problem_statement(self, problem_url: str) -> Dict[str, Any]:
         """Extract complete problem statement with retry mechanism"""
         for attempt in range(3):
