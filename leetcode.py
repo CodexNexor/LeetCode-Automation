@@ -295,6 +295,7 @@ class LeetCodeAgent:
         self.logger.error("All attempts to extract problem statement failed")
         return self._fallback_extraction()
 
+    # _extract_title
     def _extract_title(self) -> str:
         """Extract problem title"""
         title_selectors = [
