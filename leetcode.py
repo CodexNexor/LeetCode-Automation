@@ -344,6 +344,7 @@ class LeetCodeAgent:
                 continue
         return ""
 
+    # _expand_hidden_content
     def _expand_hidden_content(self):
         """Click any buttons that might expand hidden content"""
         expand_buttons = [
