@@ -317,6 +317,7 @@ class LeetCodeAgent:
                 continue
         return "Unknown Problem"
 
+    # _extract_description
     def _extract_description(self) -> str:
         """Extract problem description"""
         # First try to find and expand any hidden content
