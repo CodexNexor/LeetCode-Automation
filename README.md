@@ -65,18 +65,7 @@ source venv/bin/activate   # Linux / Mac
 venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 
-
-🔐 Environment Variables (.env)
-
-IMPORTANT: Never hardcode API keys in production.
-
-Create a .env file in the root directory:
-
-GROQ_API_KEY=gsk_your_api_key_here
-
-🔧 How the Code Uses .env
-
-In your main.py, replace this:
+In your main.py, replace this in line 860:
 
 groq_api_key = "YOUR_API_KEY"
 
