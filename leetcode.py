@@ -47,7 +47,8 @@ class LeetCodeAgent:
         )
         self.logger = logging.getLogger(__name__)
 
-    def init_driver(self):
+    def init_driver(self) -> None:
+        """Initialize the WebDriver with Chrome options."""
         """Initialize Chrome driver with optimal settings"""
         try:
             options = webdriver.ChromeOptions()
