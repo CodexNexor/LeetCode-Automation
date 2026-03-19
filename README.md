@@ -27,7 +27,7 @@ It can:
 
 LeetCode-Automation
 
-├── main.py # Main automation script
+├── leetcode.py # Main automation script
 
 
 ├── leetcode_agent.log # Auto-generated log file
