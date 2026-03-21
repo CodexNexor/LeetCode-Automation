@@ -12,7 +12,7 @@ It can:
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
 - ✅ Manual login (avoids LeetCode bot detection)
 - 🧠 AI-powered solution generation using **Groq**
